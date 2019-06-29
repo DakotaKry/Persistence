@@ -14,9 +14,9 @@ class NumberSearch:
         return numpy.r_[2, 3, ((3 * numpy.nonzero(sieve)[0][1:] + 1) | 1)]
 
     # find prime factors by testing to see if the number given is divisable by a list of primes. Probably not a very quick way
-    def factors(num, bound):
+    def factors(num):
         # sets primes as a list from primesform2to function
-        primes = NumberSearch.primesfrom2to(bound)
+        primes = NumberSearch.primesfrom2to(num + 1)
         # Initates a list from generated numbers
         numbers = []
         a = num
