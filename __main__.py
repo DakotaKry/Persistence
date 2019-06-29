@@ -4,7 +4,7 @@ import Persistence
 
 
 def mainFuncation():
-    task = input("Type 1 for Persistance, 2 for Factors, or 3 to quit")
+    task = input("Type 1 for Persistence, 2 for Factors, or 3 to quit")
     if task == "1":
         num = int(input("Enter a number: "))
         print(Persistence.Persistence(num).persistence())
