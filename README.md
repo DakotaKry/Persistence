@@ -1,4 +1,6 @@
 # Persistence
+**This project was an exercise in python**
+
 Finding high Persistence Numbers
 
 **Requires numpy!**
